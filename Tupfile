@@ -1,0 +1,1 @@
+: *.c |> cc -lSDL2 -lGLESv2 %f -o %o |> %B
